@@ -23,21 +23,21 @@
     "preview"
   ],
   "devDependencies": {
-    "@angular/common": "^2.4.0",
-    "@angular/compiler": "^2.4.0",
-    "@angular/compiler-cli": "^2.4.0",
-    "@angular/core": "^2.4.0",
-    "@angular/platform-browser": "^2.4.0",
-    "@types/node": "~6.0.60",
-    "codelyzer": "~2.0.0",
+    "@angular/common": "^4.2.5",
+    "@angular/compiler": "^4.2.5",
+    "@angular/compiler-cli": "^4.2.5",
+    "@angular/core": "^^4.2.5",
+    "@angular/platform-browser": "^4.2.5",
+    "@types/node": "^8.0.12",
+    "codelyzer": "^3.1.2",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "gulp-rollup": "^2.13.0",
     "node-sass-tilde-importer": "^1.0.0",
     "run-sequence": "^2.0.0",
-    "rxjs": "^5.0.1",
-    "ts-node": "~2.0.0",
-    "tslint": "~4.4.2",
-    "typescript": "~2.0.0"
+    "rxjs": "~5.4.2",
+    "ts-node": "^3.1.0",
+    "tslint": "^5.5.0",
+    "typescript": "~2.4.1"
   }
 }
