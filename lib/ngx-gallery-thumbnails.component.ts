@@ -185,4 +185,11 @@ export class NgxGalleryThumbnailsComponent implements OnChanges {
     private getSafeStyle(value: string): SafeStyle {
         return this.sanitization.bypassSecurityTrustStyle(value);
     }
+
+    private showThumb()
+    {
+        if(this.images.length>1)
+            return true;
+        return false;
+    }
 }
